@@ -28,6 +28,8 @@ This Redis setup is a perfect way to have an internal cache for your other Koyeb
 
 Follow the steps below to deploy and run the Redis application on your Koyeb account.
 
+Once the Redis application becomes healthy, you can reach it from any other Koyeb service using its internal domain, on the default redis port 6379: <SERVICE>.<APP>.koyeb
+
 ### Requirements
 
 You need a Koyeb account to successfully deploy and run this application. If you don't already have an account, you can sign-up for free [here](https://app.koyeb.com/auth/signup).
